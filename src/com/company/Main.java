@@ -17,8 +17,11 @@ public class Main {
 
         //long varialbe to store days difference betwwen two Dates
         long noOfDaysInBetween = ChronoUnit.DAYS.between(dateBefore ,afterBefore);
+       
+        //long variable to store hours
+        long noOfHoursInBetween = 24* noOfDaysInBetween;
 
         //Printing no. of days
-        System.out.println("Days count since you birth are : " + noOfDaysInBetween);
+        System.out.println("Days count since you birth are : " + noOfDaysInBetween +  noOfHoursInBetween;);
     }
 }
